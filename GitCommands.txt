@@ -1,0 +1,223 @@
+    1  systemctl httpd status
+    2  where httpd
+    3  which httpd
+    4  yum update -y
+    5  yum install httpd
+    6  cd /etc/var/www/html
+    7  cd /etc
+    8  cd var
+    9  ls
+   10  cd www
+   11  cd html
+   12  cd /var/www/html
+   13  cd /home/ec2-user/
+   14  ls
+   15  mv Storify-Free-Version-1.0/ /var/www/html
+   16  ls
+   17  cd /var/www/html
+   18  ls
+   19  cd Storify-Free-Version-1.0/
+   20  mv * ..
+   21  ls
+   22  cd ..
+   23  ls
+   24  cd Storify-Free-Version-1.0/
+   25  ls
+   26  cd ..
+   27  rm Storify-Free-Version-1.0/
+   28  rm Storify-Free-Version-1.0/ -f
+   29  service httpd start
+   30  ls
+   31  mv Storify-Free-Version-1.0/ ..
+   32  ls
+   33  pwd
+   34  service httpd satrt
+   35  service httpd start
+   36  cd /var/www/html
+   37  ls
+   38  ls -a
+   39  rm *
+   40  ls
+   41  cd /home/ec2-user/
+   42  ls
+   43  cd Mundana\ Free\ Website\ Template\ -\ Free-CSS.com/
+   44  ls
+   45  cd template-mundana-bootstrap-html-master/
+   46  mv * /var/www/html
+   47  ls
+   48  cd ..
+   49  ls
+   50  rm Mundana\ Free\ Website\ Template\ -\ Free-CSS.com/
+   51  rm Mundana\ Free\ Website\ Template\ -\ Free-CSS.com/ -f
+   52  ls -a
+   53  ls -l
+   54  rm -f Mundana\ Free\ Website\ Template\ -\ Free-CSS.com/
+   55  chmod 700 Mundana\ Free\ Website\ Template\ -\ Free-CSS.com/
+   56  rm Mundana\ Free\ Website\ Template\ -\ Free-CSS.com/
+   57  rm -f Mundana\ Free\ Website\ Template\ -\ Free-CSS.com/
+   58  ls -l
+   59  cd /var/www/html
+   60  ls
+   61  vim index.html 
+   62  nano /var/www/html/index.html 
+   63  sudo su -
+   64  cd gitpractice/
+   65  vi .gitignore
+   66  sudo su -
+   67  cd gitpractice/
+   68  ls
+   69  nano .gitignore
+   70  vi .gitignore
+   71  cd gitpractice/
+   72  ls
+   73  ls -a
+   74  rm .gitignore.swo
+   75  rm .gitignore.swp
+   76  ls -a
+   77  vim .gitignore
+   78  cd gitpractice/
+   79  ls -a
+   80  rm .gitignore.swp
+   81  nano .gitignore 
+   82  git add .gitignore
+   83  git status
+   84  git commit -m ".gitignore"
+   85  touch 1.txt 1.class 2.txt 3.yml
+   86  ls
+   87  git status
+   88  git log
+   89  git log 1
+   90  git log -1
+   91  git log --oneline
+   92  git branch newbranch
+   93  git branch
+   94  git checkout newbranch
+   95  git branch
+   96  git log
+   97  git status
+   98  git add .
+   99  git status
+  100  git checkout main
+  101  git status
+  102  git checkout newbranch
+  103  git push origin main
+  104  git checkout main
+  105  git checkout newbranch
+  106  git push origin newbranch
+  107  git checkout main
+  108  git status
+  109  git commit -m "new files ignore"
+  110  git push origin main
+  111  git branch
+  112  git push origin main
+  113  git checkout newbranch
+  114  git status
+  115  git logs --oneline
+  116  git log --oneline
+  117  git branch
+  118  git checkout main
+  119  git push origin main
+  120  git pull origin main
+  121  ls -a
+  122  git push origin main
+  123  git checkout newbranch
+  124  git status
+  125  git commit -m "newpush"
+  126  git push origin main
+  127  git push origin newbranch
+  128  git checkout main
+  129  git status
+  130  git add .
+  131  git status
+  132  ls -a
+  133  nano afrozgit
+  134  git pull origin main
+  135  git push origin main
+  136  git status
+  137  git checkout newbranch
+  138  ls -a
+  139  git checkout main
+  140  ls -a
+  141  cd gitpractice/
+  142  vi test
+  143  git checkout newbranch
+  144  ls -a
+  145  git add .test
+  146  git add .
+  147  git status
+  148  git checkout main
+  149  ls -a
+  150  git status
+  151  git checkout newbranch
+  152  git commit -m "merge1"
+  153  git checkout main
+  154  ls -a
+  155  vi test
+  156  git add test
+  157  git status
+  158  git commit -m "merge2"
+  159  git log --oneline
+  160  git merge
+  161  git merge newbranch
+  162  vi test
+  163  git merge newbranch
+  164  vi test
+  165  git merge newbranch
+  166  ls -a
+  167  vi 1.class
+  168  nano afrozgit 
+  169  nano first
+  170  nano first post
+  171  rm -rf 1.class 1.txt afrozgit 2.txt first first post
+  172  ls -a
+  173  git merge newbranch
+  174  git work tree
+  175  worktree
+  176  git worktree 
+  177  git add .
+  178  ls
+  179  git status
+  180  git commit -m "deleted"
+  181  git push origin main
+  182  git pull origin main
+  183  ls -a
+  184  git merge newbranch
+  185  git push origin main
+  186  git status
+  187  git add .
+  188  git status
+  189  git stash
+  190  ls -a
+  191  nano test
+  192  git stash
+  193  ls -a
+  194  nano test
+  195  git stash list
+  196  nano test
+  197  git stash
+  198  nano test
+  199  git stash list
+  200  git status
+  201  nano test
+  202  git status
+  203  git stash
+  204  git apply stash{0}
+  205  git stash list
+  206  git apply stash@{0}
+  207  ls
+  208  git stash apply stash@{0}
+  209  nano test
+  210  git add .
+  211  git commit -m "git stash test"
+  212  git log --oneline
+  213  git show 84cbb1b
+  214  git stash list
+  215  git stash apply stash@{2}
+  216  nano test 
+  217  git stash clear
+  218  git stash list
+  219  history
+  220  history >> Git Commands
+  221  ls
+  222  nano git
+  223  history >> GitCommands
